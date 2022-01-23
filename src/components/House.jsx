@@ -1,7 +1,12 @@
 import * as React from "react"
 
-const SvgComponent = (props) => (
-  <svg width={1040} height={725} xmlns="http://www.w3.org/2000/svg" {...props}>
+const SvgComponent = ({ width, height }) => (
+  <svg 
+    width={width}
+    height={height}
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMaxYMax  slice"
+  >
     <path
       style={{
         fill: "#04f",

@@ -1,5 +1,6 @@
 .container {
-  top: 100px;
+  height: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,6 +8,20 @@
 
 .map {
   background: #010429;
+  height: 90vh;
   padding: 20px;
   border-radius: 10px;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border: 2px solid red;
+  top:50px;
+  bottom: 50px;
 }
