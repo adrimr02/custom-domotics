@@ -29,8 +29,8 @@ export const rooms = [
     id: "1",
     bounds: {
       isCustom: false,
-      xPos: 200,
-      yPos: 200,
+      xPos: 71,
+      yPos: 44,
       height: 43,
       width: 28,
     },
@@ -52,8 +52,8 @@ export const rooms = [
     id: "2",
     bounds: {
       isCustom: false,
-      xPos: 228,
-      yPos: 200,
+      xPos: 99,
+      yPos: 44,
       height: 43,
       width: 28,
     },
@@ -75,7 +75,7 @@ export const rooms = [
     id: "3",
     bounds: {
       isCustom: true,
-      points: "180,173 200,173 200,190 250,190 250,200 200,200 200,243 180,243 180,203 170,203 170,190 180,190"
+      points: "51,17 71,17 71,34 121,34 121,44 71,44 71,87 51,87 51,47 41,47 41,34 51,34"
     },
     lights: [
       {
@@ -101,7 +101,7 @@ export const rooms = [
     id: "4",
     bounds: {
       isCustom: true,
-      points: "250,190 270,190 262,190 262,173 286,173 286,200 268,200 286,200 286,243 256,243 256,200 250,200"
+      points: "121,34 141,34 133,34 133,17 157,17 157,44 139,44 157,44 157,87 127,87 127,44 121,44"
     },
     lights: [
       {
@@ -133,8 +133,8 @@ export const rooms = [
     id: "5",
     bounds: {
       isCustom: false,
-      xPos: 230,
-      yPos: 173,
+      xPos: 101,
+      yPos: 17,
       height: 17,
       width: 32,
     },
@@ -160,8 +160,8 @@ export const rooms = [
     id: "6",
     bounds: {
       isCustom: false,
-      xPos: 200,
-      yPos: 173,
+      xPos: 71,
+      yPos: 17,
       height: 17,
       width: 30,
     },
@@ -187,7 +187,7 @@ export const rooms = [
     id: "7",
     bounds: {
       isCustom: true,
-      points: "130,203 170,203 170,227 180,227 180,270 130,270"
+      points: "1,47 41,47 41,71 51,71 51,114 1,114"
     },
     lights: [
       {
@@ -219,7 +219,7 @@ export const rooms = [
     id: "8",
     bounds: {
       isCustom: true,
-      points: "170,173 170,167 160,157 146,157 136,167 136,173 130,173 130,203 170,203"
+      points: "41,17 41,11 31,1 15,1 7,11 7,17 1,17 1,47 41,47"
     },
     lights: [
       {
@@ -255,8 +255,8 @@ export const rooms = [
     id: "9",
     bounds: {
       isCustom: false,
-      xPos: 170,
-      yPos: 173,
+      xPos: 41,
+      yPos: 17,
       height: 17,
       width: 10,
     },
@@ -272,8 +272,8 @@ export const rooms = [
     id: "10",
     bounds: {
       isCustom: false,
-      xPos: 170,
-      yPos: 203,
+      xPos: 41,
+      yPos: 47,
       height: 24,
       width: 10,
     },
@@ -289,8 +289,8 @@ export const rooms = [
     id: "11",
     bounds: {
       isCustom: false,
-      xPos: 180,
-      yPos: 243,
+      xPos: 51,
+      yPos: 87,
       height: 22,
       width: 51,
     },

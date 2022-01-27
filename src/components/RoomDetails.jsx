@@ -1,9 +1,13 @@
-import React from 'react';
+import './roomDetails.css'
 
-export default function RoomDetails() {
+export function RoomDetails({ handleClose, show, children}) {
+  const showHideClassName = show ? "modal display-block" : "modal display-none"
   return (
-    <div>
-      
+    <div className={showHideClassName}>
+      <section className="modal-main">
+        <button className="close-button" type="button" onClick={handleClose} >X</button>
+        {children}
+      </section>
     </div>
   );
 }
